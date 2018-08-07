@@ -6,7 +6,7 @@
 -->
 <ion-header>
 
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>Shopping List</ion-title>
   </ion-navbar>
 
@@ -19,7 +19,7 @@
     <ion-input type="text" [(ngModel)]="name"></ion-input>
   </ion-item>
  
-    <button ion-button full  (click)="writecuisine ()">Add List</button>
+    <button ion-button round end  (click)="writecuisine ()">Add List</button>
  
     <ion-list>
       <ion-item-sliding *ngFor = "let item of items">
